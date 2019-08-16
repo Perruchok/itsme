@@ -1,0 +1,34 @@
+#return{
+    color:greenyellow;
+}
+.bd-example{
+    width: 500px;
+    align-content: center;
+
+}
+.title{
+    text-align: center;
+    background: rgb(247, 237, 110);
+}
+.page{
+    background: rgb(247, 237, 110);
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100px;
+    border-width: 10px;
+}
+h1{
+    color:black;
+}
+h2{
+    color:green;
+}
+h3{
+    color:yellow;
+}
+.sub{
+    background: rgb(247, 237, 110);
+    font-size: 30px;
+    text-align: center;
+}
