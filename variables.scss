@@ -1,0 +1,22 @@
+$color:burlywood;
+div{
+    table{
+        th{
+            background-color: $color;
+            font-size: 20px;
+        }
+        td{
+            background-color: cadetblue
+            font-size:15px;
+        }
+        
+    }
+}
+%divcolor{
+    text-align: center;
+    background: rgb(247, 237, 110);
+}
+.divpages {
+    @extend %divcolor;
+    height: 100px;
+}
