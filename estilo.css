@@ -1,5 +1,9 @@
 #return{
     color:greenyellow;
+    text-align: center;
+}
+.small{
+    font-size: 40px;
 }
 .bd-example{
     width: 500px;
@@ -10,25 +14,57 @@
     text-align: center;
     background: rgb(247, 237, 110);
 }
-.page{
+.divpages{
     background: rgb(247, 237, 110);
-    text-align: center;
-    font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     height: 100px;
-    border-width: 10px;
 }
-h1{
-    color:black;
-}
-h2{
-    color:green;
-}
-h3{
-    color:yellow;
+div>p{
+    font-size: 30px;
+    border-width: 5px;
+    border-color: orangered;
+    margin-block-start: 10px;
+
 }
 .sub{
     background: rgb(247, 237, 110);
     font-size: 30px;
     text-align: center;
+}
+a:hover{
+background-color: yellowgreen
+}
+button a{
+    font-size: 30px;
+}
+.page{
+    height: 100%;
+    font-size: 40px;}
+    
+span{
+        font-size: 30px;
+        color: teal;
+        text-align: center;
+    }
+
+iframe {
+    display:block;
+    width:100%;
+}   
+
+@media (max-width:700px ){
+    .description{
+        font-size: 17px;
+    }
+    .divpages{
+        height: 60px;
+    }
+
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th,td{
+    border: 1px solid black;
 }
